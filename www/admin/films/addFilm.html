@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../../style/main.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+
+    <title>Dashbord - Creation séance</title>
+  </head>
+  <body class="container-fluid">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <img class="rounded mx-auto d-block" src="../../images/logo-f-lfdpa.svg" alt="Festival Les Films de Plein Air" width="80">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto"></ul>
+                    <span class="navbar-text">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../../login.html">
+                                    <i class="fas fa-sign-out-alt"></i> Déconnexion
+                                </a>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-md-12 mt-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../admin.html">Dashboard</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Création</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="py-5 text-center">
+                <h1><i class="fas fa-film"></i></h1>
+            <h2>Nouvelle séance</h2>
+        </div>
+        <form action="" method="post">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 mb-3">
+                    <label for="filePoster">Image de couverture</label>
+                    <input type="file" class="form-control-file" id="filePoster">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <label for="title">Titre du film</label>
+                    <input type="email" class="form-control" id="title">
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <label for="title">Date de la projection</label>
+                    <input type="date" class="form-control" id="projectionDate">
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <label for="title">Horaire de la séance</label>
+                    <input type="time" class="form-control" id="firstName">
+                </div>
+                <div class="col-md-12 col-sm-12 mt-3">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" id="description" rows="7"></textarea>
+                </div>
+                <div class="col-md-3 col-sm-12 mt-3">
+                    <label for="year">Année du film</label>
+                    <input type="number" class="form-control" id="year">
+                </div>
+                <div class="col-md-3 col-sm-12 mt-3">
+                    <label for="banning">Classification</label>
+                    <input type="text" class="form-control" id="banning">
+                </div>
+                <div class="col-md-6 col-sm-12 mt-3">
+                    <label for="director">Réalisateur</label>
+                    <input type="text" class="form-control" id="director">
+                </div>
+                <div class="col-md-12 col-sm-12 mt-3">
+                    <label for="trailer">Bande annonce (lien)</label>
+                    <input type="text" class="form-control" id="trailer">
+                </div>
+                <div class="col-md-12 col-sm-12 d-flex justify-content-between mt-3">
+                    <div>
+                        <a class="btn btn-warning mb-3" href="../admin.html" role="button" title="Ajouter">Brouillon</a>
+                    </div>
+                    <div>
+                        <a class="btn btn-danger mb-3" href="../admin.html" role="button" title="Ajouter">Annuler</a>
+                        <a class="btn btn-primary mb-3" href="../admin.html" role="button" title="Ajouter">Créer</a>
+                    </div>
+                </div> 
+            </div>
+        </form>
+        
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/226b7f7028.js"></script>
+</body>
+</html>
+

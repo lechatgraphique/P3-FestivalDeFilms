@@ -1,0 +1,143 @@
+
+
+
+/* Colors */
+
+.bg-bluedark {
+    background-color: #121A47;
+}
+.bg-greenlight {
+    background-color: #2EC086;
+}
+
+.text-bluedark {
+    color: #121A47;
+}
+.text-greenlight {
+    color: #2EC086;
+}
+
+/* **** **** **** */
+
+/* Surchage btn */
+
+.btn-primary {
+    color: #fff;
+    background-color: #2EC086;
+    border-color: #2EC086;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #27a875;
+    border-color: #27a875;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2EC086;
+    border-color: #2EC086;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(46, 192, 134, .5);
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(46, 192, 134, .5);
+}
+.btn-link {
+    color: #373A3C;
+}
+.btn-link:hover {
+    color: #373A3C;
+}
+a {
+    color: #000000;
+}
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* **** **** **** */
+
+/* Administration */
+
+#f-lfdpa-login .card-header {
+    border-bottom: 2px solid #25a572;
+}
+
+a:hover .badge-light {
+    color: #FFF;
+    background-color: #2EC086;
+}
+.progress-bar {
+    background-color: #2EC086;
+}
+
+/* **** **** **** */
+
+
+.jumbotron {
+    padding: 2rem 2rem;
+}
+
+.linetop {
+    height: 6px;
+}
+
+footer a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+/* 
+** Style for the banner
+*/
+.cookie {
+    background-color: #27a875;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 5px;
+        font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFF;
+  }
+  .button-info,
+  .button-ok {
+    position: relative;
+    display: inline-block;
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    background-color: rgba(247, 247, 247, 0.6);
+        font-family: "Open sans", sans-serif;
+    font-weight: 800;
+  }
+  .button-info:hover,
+  .button-ok:hover {
+    transition: background-color 0.2s ease-in-out;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .button-info {}
+  .button-ok {}
+  .button-info a,
+  .button-ok a {
+    text-decoration: none;
+    color: #222222;
+  }
+  
+  /* Utility */
+  .center {
+    text-align: center;
+  }
+  .accepted-cookie-policy {
+    opacity: 0;
+    display: none;
+  }
+  .bla {
+    font-family: "Open sans", sans-serif;
+    font-weight: 100;
+    margin:20px auto;
+    width: 60%;
+  }

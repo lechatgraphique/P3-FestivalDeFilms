@@ -1,0 +1,11 @@
+<svg id="handicap" xmlns="http://www.w3.org/2000/svg" width="38.226" height="44.547" viewBox="0 0 38.226 44.547">
+  <g id="Groupe_9" data-name="Groupe 9" transform="translate(0 0)">
+    <g id="Groupe_8" data-name="Groupe 8" transform="translate(0 0)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="4.064" cy="4.064" r="4.064" transform="translate(10)" fill="#121a47"/>
+      <path id="Tracé_20" data-name="Tracé 20" d="M58.63,229.863a.908.908,0,0,0-1.2.427,10.981,10.981,0,1,1-12.519-15.446.876.876,0,0,0-.427-1.7,12.753,12.753,0,1,0,14.528,17.928A.915.915,0,0,0,58.63,229.863Z" transform="translate(-34.765 -193.735)" fill="#121a47"/>
+      <g id="Groupe_7" data-name="Groupe 7" transform="translate(11.991 11.182)">
+        <path id="Tracé_21" data-name="Tracé 21" d="M192.466,148.619a2.09,2.09,0,0,0-2.936-.391l-2.082,1.627-7.318-10.819a2.109,2.109,0,0,0-1.736-.918h-7.564v-4.491h8.664a2.082,2.082,0,1,0,0-4.164h-8.664v-4.382a2.082,2.082,0,1,0-4.164,0v15.164a2.087,2.087,0,0,0,2.082,2.082H177.3l7.918,11.7a2.094,2.094,0,0,0,3.018.482l3.836-2.955A2.094,2.094,0,0,0,192.466,148.619Z" transform="translate(-166.665 -123)" fill="#121a47"/>
+      </g>
+    </g>
+  </g>
+</svg>

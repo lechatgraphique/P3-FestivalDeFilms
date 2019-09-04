@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Au XXIème siècle, où règnent la violence et le sexe, Alex, jeune chef de bande, exerce avec sadisme une terreur aveugle.">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style/main.css">
+
+        <title>Orange Mécanique - Festival Les Films de Plein Air</title>
+    </head>
+    <body class="container" id="accueil">
+        <div class="linetop bg-bluedark"></div>
+        <header class="py-3  bg-white">
+            <div class="col-md-12 text-center">
+                <img class="rounded mx-auto d-block" src="images/logo-f-lfdpa.svg" alt="Festival Les Films de Plein Air" width="120">
+            </div>
+            <div class="nav-scroller py-1 mb-2">
+                <nav class="nav d-flex justify-content-center">
+                    <a class="p-2 text-uppercase" href="index.html">Accueil</a>
+                    <a class="p-2 text-uppercase" href="index.html#actualites">Actualités</a>
+                    <a class="p-2 text-uppercase" href="liste-des-films.html">Films</a>
+                    <a class="p-2 text-uppercase" href="index.html#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <img src="images/orange_m_canique_1.png" class="img-fluid rounded mb-3" alt="Image Casse-noisette">
+            <div class="jumbotron bg-white">
+                <h1 class="display-4">Orange Mécanique</h1>
+                <h5>Mardi 6 août 2019 - 21:30</h5>
+                <hr>
+                <p class="lead">Au XXIème siècle, où règnent la violence et le sexe, Alex, jeune chef de bande, exerce avec sadisme une terreur aveugle. Après son emprisonnement, des psychanalystes l'emploient comme cobaye dans des expériences destinées à juguler la criminalité... </p>
+                <div class="d-flex justify-content-between mb-2">
+                    <div class="mb-1 text-muted">1972 | +16 | Stanley Kubrick</div>
+                    <div>
+                        <a href="#"><i class="fab fa-linkedin mr-3 text-muted fa-lg share_linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook-square fa-lg text-muted mr-3 share_facebook"></i></a>
+                    </div>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger text-uppercase btn-block mt-3 mb-3" data-toggle="modal" data-target="#exampleModalCenter11">
+                Bande annonce
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter11" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle11" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle11">Bande annonce</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Tys3BFPmxIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary text-uppercase btn-block" data-toggle="modal" data-target="#exampleModalCenter">
+                        Préinscription
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Préinscription</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>    
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Adresse Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div> 
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Nombre de places à réserver ? </label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        </select>
+                                    </div> 
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Retour</button>   
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" onclick="nextModal()">
+                                    Valider
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Préinscription</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <h4>Merci</h4>
+                                <p>Votre préinscription a bien été enregistrer.</p>
+                                <img class="mb-5" src="images/icons/checked.svg" alt="Valider" width="50">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-bluedark p-3">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p class="text-white">Copyright © 2019. Festival Les Films De Plein Air | <a href="mentions-legales.html" class="text-greenlight">Mention légales</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Custom JavaScript -->
+        <script src="js/main.js"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/226b7f7028.js"></script>
+
+    </body>
+</html>
