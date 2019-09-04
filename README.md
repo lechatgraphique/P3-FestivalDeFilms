@@ -1,3 +1,8 @@
+
+  <img src="https://image.flaticon.com/icons/svg/321/321773.svg" width="50" title="success">
+  <h4>Soutenance du projet a été validé.</h4>
+
+
 # Festival des Films de Plein Air
 Projet 3 de mon parcours Développeur d'application PHP/Symfony chez OpenClassrooms. Analyse des besoins pour un client qui organise un Festival de Films. Mise en place d'un cahier des charges et d'une première version du site en HTML/CSS via bootstrap 4.
 
