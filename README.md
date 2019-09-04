@@ -3,7 +3,7 @@ Projet 3 de mon parcours Développeur d'application PHP/Symfony chez OpenClassro
 
 Front-end : [www.lfdpa.lechatgraphique.fr](http://www.lfdpa.lechatgraphique.fr)
 <br>
-Back-end :  [www.lfdpa.lechatgraphique.fr/admin](http://www.lfdpa.lechatgraphique.fr/admin.admin.html)
+Back-end :  [www.lfdpa.lechatgraphique.fr/admin](http://www.lfdpa.lechatgraphique.fr/admin/admin.html)
 
 
 ### Informations du projet : 
