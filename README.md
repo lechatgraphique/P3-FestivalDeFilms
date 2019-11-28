@@ -6,9 +6,9 @@
 # Festival des Films de Plein Air
 Projet 3 de mon parcours Développeur d'application PHP/Symfony chez OpenClassrooms. Analyse des besoins pour un client qui organise un Festival de Films. Mise en place d'un cahier des charges et d'une première version du site en HTML/CSS via bootstrap 4.
 
-Front-end : [www.lfdpa.lechatgraphique.fr](http://lfdpa.lechatgraphique.fr)
+Front-end : [www.lfdpa.lechatgraphique.fr](http://lfdpa.lechatgraphique.fr) Inactif pour l'instant (migration)
 <br>
-Back-end :  [www.lfdpa.lechatgraphique.fr/admin](http://lfdpa.lechatgraphique.fr/login.html)
+Back-end :  [www.lfdpa.lechatgraphique.fr/admin](http://lfdpa.lechatgraphique.fr/login.html) Inactif pour l'instant (migration)
 
 
 ### Informations du projet : 
